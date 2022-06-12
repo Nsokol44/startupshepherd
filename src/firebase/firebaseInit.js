@@ -2,8 +2,8 @@
 
 import "firebase/compat/firestore";
 import firebase from "firebase/compat/app";
-import getAnalytics  from "firebase/compat/analytics";
-import logEvent  from "firebase/compat/analytics";
+//import getAnalytics  from "firebase/compat/analytics";
+//import logEvent  from "firebase/compat/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -22,9 +22,9 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-const analytics = getAnalytics(firebaseApp);
+//const analytics = getAnalytics(firebaseApp);
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
-logEvent(analytics, 'screen_view');
+//logEvent(analytics, 'screen_view');
 
 
 export {timestamp};
