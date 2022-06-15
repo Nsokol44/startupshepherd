@@ -11,6 +11,7 @@
       ></v-toolbar-side-icon>
     
       <v-spacer></v-spacer>
+      <v-btn raised rounded large color="green" :to="{ name: 'Donate' }">Donate</v-btn>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
     </v-app-bar>
 

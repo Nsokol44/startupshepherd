@@ -4,7 +4,7 @@ import Home from "../views/Home.vue";
 import Services from "../views/Services.vue";
 import About from "../views/About.vue";
 import Resources from "../views/Resources.vue";
-
+import Donate from "../views/Donate.vue";
 
 
 Vue.use(VueRouter);
@@ -40,6 +40,14 @@ const routes = [
         component: Resources,
         meta: {
           title: 'Resources'
+        }
+      },
+      {
+        path: "/donate",
+        name: "Donate",
+        component: Donate,
+        meta: {
+          title: 'Donate'
         }
       },
 ];

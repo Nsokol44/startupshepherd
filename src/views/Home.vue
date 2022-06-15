@@ -35,7 +35,9 @@
         <v-expansion-panels>
           <v-expansion-panel elevation="10">
             <v-expansion-panel-header> </v-expansion-panel-header>
-            <v-expansion-panel-content> </v-expansion-panel-content>
+            <v-expansion-panel-content> 
+              Once you have an idea, you need to validate your market. Use the following steps to do so:
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </v-card>
@@ -46,7 +48,9 @@
         <v-expansion-panels>
           <v-expansion-panel elevation="10">
             <v-expansion-panel-header> </v-expansion-panel-header>
-            <v-expansion-panel-content> </v-expansion-panel-content>
+            <v-expansion-panel-content> 
+              If you confirmed there is an audience, it's time to build an MVP and get it into people's hands.
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </v-card>
@@ -57,7 +61,9 @@
         <v-expansion-panels>
           <v-expansion-panel elevation="10">
             <v-expansion-panel-header> </v-expansion-panel-header>
-            <v-expansion-panel-content> </v-expansion-panel-content>
+            <v-expansion-panel-content> 
+              Your MVP is in people's hands, time to make updates or pivot to another idea.
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </v-card>
@@ -68,7 +74,9 @@
         <v-expansion-panels>
           <v-expansion-panel elevation="10">
             <v-expansion-panel-header> </v-expansion-panel-header>
-            <v-expansion-panel-content> </v-expansion-panel-content>
+            <v-expansion-panel-content> 
+              You are growing and now in need of funding and management guidance. 
+            </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       </v-card>
@@ -83,7 +91,7 @@
           </h2>
           <h1>😃</h1>
           <v-spacer></v-spacer>
-          <v-btn raised rounded large color="green">Donate</v-btn>
+          <v-btn raised rounded large color="green" :to="{ name: 'Donate' }">Donate</v-btn>
         </v-col>
       </v-row>
     </v-container>
